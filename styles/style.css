@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap');
+
+:root {
+    /*cor de fundo*/
+    --cor-primaria: #F4F4F4;
+    /*cor da letra*/
+    --cor-secundaria: #000000;
+    /*cor dos detalhes*/
+    --cor-terciaria: red;
+    /*cor hover*/
+    --cor-hover: rgb(176, 25, 176);
+
+    --font-principal: 'Josefin Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-principal);
+}
+
+.cabecalho {
+    margin-top: 4%;
+    margin-left: 6rem;
+    gap: 5rem;
+}
+
+.cabecalho__about {
+    margin-top: 4%;
+    margin-left: 6rem;
+    margin-bottom: 4%;
+    gap: 5rem;
+}
+
+.cabecalho__link {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-size: 1.2rem;
+}
+
+
+
+.link__about {
+    margin-left: 4%;
+}
+
+.principal {
+    align-items: center;
+}
+
+.container__imagem {
+    width: 60%;
+    margin-left: 10rem;
+}
+
+.container__caixa {
+    margin: 0 6rem;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.container__titulo {
+    font-size: 2.25rem;
+}
+
+.container__subtitulo {
+    margin: 1rem 0;
+    font-size: 1.75rem;
+}
+
+.titulo__destaque {
+    color: var(--cor-terciaria);
+}
+
+.container__texto {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.container__links {
+    display: flex;
+    flex-direction: column;
+}
+.links__link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.titulo__about {
+    margin: 3% 0;
+}
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    padding: 1.2rem;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+.main__about {
+    margin-bottom: 10rem;
+}
+
+.cabecalho__link:hover {
+    color: var(--cor-hover);
+    text-decoration: underline;
+}
+
