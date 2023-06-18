@@ -115,3 +115,15 @@ body {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1000px){
+    .container {
+        display: block;
+    }
+    .container__imagem {
+        width: 50vw;
+    }
+    .container__caixa {
+        margin: 4%;
+    }
+}
+
