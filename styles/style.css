@@ -111,11 +111,10 @@ body {
 }
 
 .cabecalho__link:hover {
-    color: var(--cor-hover);
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 728px){
     .container {
         display: block;
     }
