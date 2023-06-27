@@ -114,8 +114,8 @@ body {
     text-decoration: underline;
 }
 
-#about {
-    grid-template-columns: 75% 50%;
+.rodape__about {
+    margin-top: 15rem;
 }
 
 @media screen and (max-width: 728px){
