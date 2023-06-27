@@ -114,6 +114,10 @@ body {
     text-decoration: underline;
 }
 
+#about {
+    grid-template-columns: 75% 50%;
+}
+
 @media screen and (max-width: 728px){
     .container {
         display: block;
